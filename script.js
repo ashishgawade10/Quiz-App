@@ -35,6 +35,7 @@ let answered=false;
 let question=document.getElementById("question");
 let options=document.getElementById("options");
 let scoreText=document.getElementById("score");
+let progress=document.getElementById("progress");
 
 function loadQuiz(){
 
@@ -69,6 +70,10 @@ scoreText.innerHTML="Score: "+score;
 
 options.appendChild(btn);
 });
+
+// Progress bar update
+let progressPercent = ((current) / questions.length) * 100;
+progress.style.width = progressPercent + "%";
 }
 
 function nextQuestion(){
@@ -80,13 +85,16 @@ return;
 
 current++;
 
-if(current<questions.length){
+if(current < questions.length){
 loadQuiz();
 }
 else{
+
+progress.style.width="100%";
+
 document.querySelector(".container").innerHTML=
 "<h1>Quiz Completed 🎉</h1>"+
-"<h2>Final Score: "+score+"/"+questions.length+"</h2>";
+"<h2>Your Score: "+score+"/"+questions.length+"</h2>";
 }
 }
 
