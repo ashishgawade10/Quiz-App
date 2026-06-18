@@ -16,20 +16,15 @@ A simple and interactive Quiz Application built using HTML, CSS, and JavaScript.
 - HTML
 - CSS
 - JavaScript
-
-## 📂 Project Structure
-
-Quiz-App
-
-│
-├── index.html
-├── style.css
-└── script.js
-
+- 
 
 ## 🌐 Live Demo
 
 Add your GitHub Pages link here:
 
 https://ashishgawade10.github.io/Quiz-App/
+
+
+
+
 
