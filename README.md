@@ -31,9 +31,5 @@ Quiz-App
 
 Add your GitHub Pages link here:
 
-https://github.com/ashishgawade10/Quiz-App/
+https://ashishgawade10.github.io/Quiz-App/
 
-
-## 📸 Preview
-
-Quiz application with a clean user interface and interactive questions.
