@@ -16,7 +16,6 @@ A simple and interactive Quiz Application built using HTML, CSS, and JavaScript.
 - HTML
 - CSS
 - JavaScript
-- 
 
 ## 🌐 Live Demo
 
